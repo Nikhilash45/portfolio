@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+}
+a {
+    text-decoration: none;
+   
+}
+i {
+    padding-bottom: 1rem ;
+    padding-right: 0.99 rem;
+}
+ul {
+    list-style-type: none;
+}
+/* link */
+.link-primary{
+    color: white;
+    background-color:#0ea5e9;
+   display: block;
+   margin-bottom: 1rem;
+    
+}
+.link-secondary{
+    color:#0ea5e9 ;
+    border-color: #0ea5e9;
+    border: 1px solid;
+    display: block;
+    
+
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    max-width: 140px;
+}
+/* navigation */
+.navigation {
+    background-color:#0ea5e9;
+
+    padding: 1rem;
+    border-bottom-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+}
+  .nav-brand {
+      font-size: larger;
+      font-weight: bold;
+      margin: .5rem 0rem;
+      color: white;
+  }
+  .navigation .link{
+      font-size: medium;
+      color: white;
+      text-decoration: none;
+      margin: 1rem 1rem;
+      padding : 2rem 1rem;
+  }
+  .navigation .nav-pills{
+      text-align: right;
+  }
+  .inline-list {
+      display: inline;
+      
+  }
+  .navigation .link-active {
+      font-weight: bold;
+  }
+  .header-img {
+      max-width: 80%;
+      width: 360px;
+      display: block;
+      margin: auto;
+      padding-top: 1rem;
+  }
+  .heading{
+      color:#0ea5e9 ;
+  }
+   .hero-heading {
+      text-align: center;
+      color:#898b8a ;
+      padding-top: 1rem;
+  }
+  .offwhite{
+     background-color:#e8e8e8;
+  }
+  .container-center{
+      max-width: 625px;
+      margin: auto;
+  }
+  .section h1{
+      text-align: center;
+  }
+  .section{
+      padding: 2rem 0rem;
+  }
+  .container {
+      padding: 0rem 1rem;
+  }
+.footer h1 {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 0px;
+    color: white;
+}
+ .footer {
+     background-color:#0ea5e9 ;
+     margin: 0;
+     padding-top: 0;
+     border-top-right-radius: 2rem;
+ }
+ .footer .container-center {
+padding-left: 370px;
+ }
+/*#A800F5*/
